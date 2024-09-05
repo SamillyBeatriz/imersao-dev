@@ -52,6 +52,16 @@ section button {
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
+.botao-mostrarEstrutura{
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #3A3678; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 0.8rem; /* Tamanho da fonte */
+    margin: 1rem;
+    padding: 0.5rem 1rem; /* Espaçamento interno do botão */
+}
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
