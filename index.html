@@ -10,59 +10,18 @@
 
 <body>
     <header>
-        <h1>Termos da Programação</h1>
+        <h1>Termos das Linguagens <br> de Programação</h1>
     </header>
     <main>
         <section>
-            <input type="text" id="campo-pesquisa" placeholder="Digite um termo da programação">
-            <button>Pesquisar</button>
+            <input type="text" id="campo-pesquisa" placeholder="Digite um termo">
+            <button onclick="pesquisarTermo()">Pesquisar</button>
         </section>
-        <section class="resultados-pesquisa">
-            <div class="item-resultado">
-                <h2>while</h2>
-                <p class="descricao-meta">A estrutura while é uma ferramenta fundamental em programação, utilizada para
-                    criar laços de repetição. Ela permite que um bloco de código seja executado repetidamente enquanto
-                    uma determinada condição for verdadeira. Essencialmente, o programa entra em um loop e continua executando as instruções dentro
-                    do bloco até que a condição se torne falsa.</p>
-                <p>Mais Informações:</p>
-                <ul>
-                    <li><a href="https://luis-alexandre.com.br/laco-de-repeticao-enquanto-em-algoritmos/#google_vignette"
-                            target="_blank">Luis Alexandre Blog</a></li>
-                    <li><a href="https://dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto/#google_vignette"
-                            target="_blank">Dicas de Programação</a></li>
-                </ul>
-            </div>
-            <div class="item-resultado">
-                <h2>for</h2>
-                <p class="descricao-meta">O laço for é outro tipo de estrutura de repetição muito utilizada em
-                    programação. Ele é ideal quando você sabe previamente quantas vezes o bloco de código deve ser
-                    executado. A sintaxe do for geralmente envolve uma variável de controle que é inicializada, testada
-                    em uma condição e incrementada a cada iteração.</p>
-                <p>Mais Informações:</p>
-                <ul>
-                    <li><a href="https://www.devmedia.com.br/conceitos-e-exemplos-do-for-lacos-de-repeticoes-estrutura-da-linguagem-parte-2/18871#:~:text=For%20%E2%80%93%20Usamos%20o%20la%C3%A7o%20for%20quando%20sabemos,a%20seguinte%3A%20for%20%28valor%20inicial%3B%20teste%20booleano%3B%20incremento%29"
-                            target="_blank">Dev Media</a></li>
-                    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for"
-                            target="_blank">Developer Mozilla</a></li>
-                </ul>
-            </div>
-            <div class="item-resultado">
-                <h2>if</h2>
-                <p class="descricao-meta">A estrutura if é fundamental para a tomada de decisões em um programa. Ela
-                    permite executar um bloco de código apenas se uma determinada condição for verdadeira. O if é a base
-                    para a construção de fluxos de controle mais complexos.</p>
-                <p>Mais Informações:</p>
-                <ul>
-                    <li><a href="https://www.bing.com/search?pglt=129&q=if+linguagem+de+programação&cvid=d89b64f35fe14e63a130b8f6c10cb6d1&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg1ODQ4ajBqMagCALACAA&FORM=ANNTA1&PC=DCTS"
-                            target="_blank">Dio</a></li>
-                    <li><a href="https://noic.com.br/materiais-informatica/curso/basic-02/" target="_blank">Noic</a>
-                    </li>
-                </ul>
-            </div>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
         </section>
     </main>
     <footer>
-        <p>2024 - Termos da Programação</p>
+        <p>2024 - Termos das Linguagens Programação</p>
         <p>Desenvolvido por Samilly</p>
     </footer>
     <script src="dados.js"></script>
